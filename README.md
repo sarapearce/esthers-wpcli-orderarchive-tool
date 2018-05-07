@@ -1,9 +1,9 @@
-sarapearce/cxl-intercom-lead-dedupe
+sarapearce/esthers-wpcli-orderarchive-tool
 ===================================
 
-a command line tool for removing duplicate leads in the Intercom database
+a command line tool for archiving old orders
 
-[![Build Status](https://travis-ci.org/sarapearce/cxl-intercom-lead-dedupe.svg?branch=master)](https://travis-ci.org/sarapearce/cxl-intercom-lead-dedupe)
+[![Build Status](https://travis-ci.org/sarapearce/esthers-wpcli-orderarchive-tool.svg?branch=master)](https://travis-ci.org/sarapearce/esthers-wpcli-orderarchive-tool)
 
 Quick links: [Using](#using) | [Installing](#installing) | [Contributing](#contributing) | [Support](#support)
 
@@ -17,7 +17,7 @@ Installing this package requires WP-CLI v1.1.0 or greater. Update to the latest 
 
 Once you've done so, you can install this package with:
 
-    wp package install git@github.com:sarapearce/cxl-intercom-lead-dedupe.git
+    wp package install git@github.com:sarapearce/esthers-wpcli-orderarchive-tool.git
 
 
 ## Support
@@ -26,7 +26,7 @@ Github issues aren't for general support questions, but there are other venues y
 
 ## Versioning
 
-This project can be found publicly at: https://github.com/sarapearce/cxl-intercom-lead-deduper
+This project can be found publicly at: https://github.com/sarapearce/esthers-wpcli-orderarchive-tool
 
 ## Authors
 
