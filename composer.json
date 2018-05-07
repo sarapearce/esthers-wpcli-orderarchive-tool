@@ -1,0 +1,30 @@
+{
+    "name": "sarapearce/cxl-intercom-lead-dedupe",
+    "description": "a command line tool for removing duplicate leads in the Intercom database",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/sarapearce/cxl-intercom-lead-dedupe",
+    "license": "MIT",
+    "authors": [],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": ["command.php"]
+    },
+    "require": {
+        "wp-cli/wp-cli": "^1.1.0",
+        "intercom/intercom-php": "^3.1"
+    },
+    "require-dev": {
+        "behat/behat": "~2.5",
+        "squizlabs/php_codesniffer": "*",
+        "wp-coding-standards/wpcs": "^0.13.1"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+        ],
+        "post-update-cmd": [
+            "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
+        ]
+    }
+}
